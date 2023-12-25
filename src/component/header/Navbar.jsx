@@ -2,7 +2,6 @@ import { Link } from "react-scroll";
 import { BsMoonStarsFill } from "react-icons/bs";
 import { LuSunMoon } from "react-icons/lu";
 import { useState } from "react";
-import { CiMenuBurger } from "react-icons/ci";
 import { HiOutlineXMark } from "react-icons/hi2";
 import { LuMenu } from "react-icons/lu";
 

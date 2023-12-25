@@ -6,9 +6,11 @@ function App() {
 
   return (
     <>
-      <Navbar />
-      <Banner />
-      <Home />
+      <div className=" bg-gray-100">
+        <Navbar />
+        <Banner />
+        <Home />
+      </div>
     </>
   );
 }
