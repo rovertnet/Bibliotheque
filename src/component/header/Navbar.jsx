@@ -6,16 +6,21 @@ import { useState } from "react";
 
 function Navbar() {
   const [theme, setTheme] = useState(null);
+  const [showMenu, setShowMenu] = useState(false);
   const navItems = [
     { link: "Accueil", path: "accueil" },
     { link: "A propos", path: "about" },
-    { link: "Services", path: "service" },
-    { link: "Projets", path: "projet" },
+    { link: "Boutique", path: "shop" },
+    { link: "Librarie", path: "library" },
   ];
 
   const handleThemeSwitch = () => {
     setTheme(theme === "dark" ? "light" : "dark");
   };
+  const toggleMenu = () => {
+    setShowMenu(!showMenu);
+  };
+
   return (
     <>
       <div className=" md:px-14 lg:px-14 sm:px-16 p-5 max-w-screen-2xl mx-auto">
@@ -29,7 +34,7 @@ function Navbar() {
             <ul className=" md:flex space-x-10 hidden">
               {navItems.map(({ link, path }) => (
                 <Link
-                  className=" block dark:text-slate-900 dark:hover:border-white dark:hover:pb-2 dark:hover:text-white d text-slate-950 hover:text-slate-600 font-semibold cursor-pointer "
+                  className=" block dark:hover:border-white dark:hover:pb-2 dark:hover:text-white d text-slate-950 hover:text-slate-600 dark:text-white font-semibold cursor-pointer "
                   onactiveclass="active"
                   spy={true}
                   smooth={true}
@@ -63,6 +68,31 @@ function Navbar() {
               </button>
             </div>
           </div>
+        </div>
+      </div>
+
+      {/* Show menu */}
+      <div className="left-11 right-11">
+        <div
+          className={` space-y-4 mt-16 w-[400] rounded-br-md rounded-bl-md justify-center px-6 py-3 pb-5 mx-6 dark:bg-gradient-to-r dark:from-indigo-500 dark:from-10% dark:via-sky-500 dark:via-30% dark:to-emerald-500 dark:to-90% ... bg-slate-900 ${
+            showMenu
+              ? "block justify-center fixed top-0 right-0 left-0"
+              : "hidden "
+          }`}
+        >
+          {navItems.map(({ link, path }) => (
+            <Link
+              spy={true}
+              smooth={true}
+              offset={-80}
+              key={link}
+              to={path}
+              className=" block dark:text-slate-900 text-blue-300 hover:text-white dark:hover:text-white dark:hover:bg-[#1203541c] hover:py-2 cursor-pointer font-semibold text-xl text-center"
+              onClick={toggleMenu}
+            >
+              {link}
+            </Link>
+          ))}
         </div>
       </div>
     </>
