@@ -2,6 +2,9 @@ import { Link } from "react-scroll";
 import { BsMoonStarsFill } from "react-icons/bs";
 import { LuSunMoon } from "react-icons/lu";
 import { useState } from "react";
+import { CiMenuBurger } from "react-icons/ci";
+import { HiOutlineXMark } from "react-icons/hi2";
+import { LuMenu } from "react-icons/lu";
 
 
 function Navbar() {
@@ -51,7 +54,7 @@ function Navbar() {
               {/* Dark mode button */}
               <button
                 type="button"
-                className=" hover:bg-slate-700 dark:hover:bg-green-700 dark:hover:text-slate-300 hover:rounded-full dark:hover:p-2 hover:p-2"
+                className=" hover:bg-slate-300 dark:hover:bg-green-700 dark:hover:text-slate-300 hover:rounded-full dark:hover:p-2 hover:p-2"
                 onClick={handleThemeSwitch}
               >
                 {theme === "dark" ? (
@@ -67,6 +70,33 @@ function Navbar() {
                 Sign Up
               </button>
             </div>
+
+            <div className="md:hidden space-x-2">
+              <button
+                type="button"
+                className=" hover:bg-slate-300 dark:hover:bg-green-700 dark:hover:text-slate-300 hover:rounded-full dark:hover:p-2 hover:p-2"
+                onClick={handleThemeSwitch}
+              >
+                {theme === "dark" ? (
+                  <BsMoonStarsFill className=" text-Slate-900 text-2xl " />
+                ) : (
+                  <LuSunMoon className=" text-slate-800 text-2xl hover:text-slate-400" />
+                )}
+              </button>
+
+              <button
+                onClick={toggleMenu}
+                className=" text-white focus:outline-none focus:text-[#feff5b]"
+              >
+                {showMenu ? (
+                  <HiOutlineXMark className=" h-8 w-8 text-blue-300 dark:text-slate-900 transition-all duration-300" />
+                ) : (
+                  <div className="flex space-x-2">
+                    <LuMenu className=" h-10 w-10 transition-all duration-300 text-blue-300 dark:text-slate-900" />
+                  </div>
+                )}
+              </button>
+            </div>
           </div>
         </div>
       </div>
@@ -74,7 +104,7 @@ function Navbar() {
       {/* Show menu */}
       <div className="left-11 right-11">
         <div
-          className={` space-y-4 mt-16 w-[400] rounded-br-md rounded-bl-md justify-center px-6 py-3 pb-5 mx-6 dark:bg-gradient-to-r dark:from-indigo-500 dark:from-10% dark:via-sky-500 dark:via-30% dark:to-emerald-500 dark:to-90% ... bg-slate-900 ${
+          className={` space-y-4 mt-16 w-[400] rounded-br-md rounded-bl-md justify-center px-6 py-3 pb-5 mx-6 dark:bg-gradient-to-r dark:from-indigo-500 dark:from-10% dark:via-sky-500 dark:via-30% dark:to-emerald-500 dark:to-90% ... bg-white ${
             showMenu
               ? "block justify-center fixed top-0 right-0 left-0"
               : "hidden "

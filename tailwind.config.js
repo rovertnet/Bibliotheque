@@ -6,7 +6,11 @@ export default {
   ],
   darkMode : "class",
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'hero-pattern': "url('./public/banner.png')",
+      }
+    },
   },
   plugins: [],
 }
