@@ -1,6 +1,8 @@
 import { FaSearch } from "react-icons/fa";
 import { BiChevronRight } from "react-icons/bi";
 import { FaTelegram } from "react-icons/fa";
+import { FaInstagramSquare } from "react-icons/fa";
+import { FaFacebook } from "react-icons/fa";
 
 function Home() {
   return (
@@ -31,12 +33,16 @@ function Home() {
               <FaTelegram className=" text-blue-300 text-2xl font-semibold" />
             </span>
             <span className=" bg-white rounded-full px-3 py-3 shadow-sm">
-              <FaTelegram className=" text-blue-300 text-2xl font-semibold" />
+              <FaInstagramSquare className=" text-red-500 text-2xl font-semibold" />
+            </span>
+            <span className=" bg-white rounded-full px-3 py-3 shadow-sm">
+              <FaFacebook className=" text-blue-500 text-2xl font-semibold" />
             </span>
           </div>
         </div>
 
         <div className="flex items-center justify-between">
+            {/* sidebar */}
           <div className="">
             <div className="grid grid-cols-1 mt-7">
               <h2 className=" mb-1 text-blue-600 font-semibold text-lg">
@@ -66,10 +72,12 @@ function Home() {
               </div>
             </div>
           </div>
+
+          {/* Books view */}
           <div className="">
-            <div className="flex items-center justify-between"></div>
-            <div className=""></div>
+            
           </div>
+
         </div>
       </div>
     </>
