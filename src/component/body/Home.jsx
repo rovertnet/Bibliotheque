@@ -3,11 +3,12 @@ import { BiChevronRight } from "react-icons/bi";
 import { FaTelegram } from "react-icons/fa";
 import { FaInstagramSquare } from "react-icons/fa";
 import { FaFacebook } from "react-icons/fa";
+import Card from "./Card";
 
 function Home() {
   return (
     <>
-      <div className="md:px-14 px-5 md:mt-5 mt-5 bg-gray-100 h-full py-5">
+      <div className="md:px-14 px-5 md:mt-5 mt-5 bg-gray-100 h-full">
         <div className="flex justify-between items-center">
           <h1 className=" text-2xl md:text-2xl font-bold">
             Filtrer par catégorie
@@ -41,10 +42,10 @@ function Home() {
           </div>
         </div>
 
-        <div className="flex items-center justify-between">
-            {/* sidebar */}
+        <div className="flex items-center justify-center gap-72 my-5 py-7">
+          {/* sidebar */}
           <div className="">
-            <div className="grid grid-cols-1 mt-7">
+            <div className="grid grid-cols-1 ">
               <h2 className=" mb-1 text-blue-600 font-semibold text-lg">
                 Toutes les catégories
               </h2>
@@ -74,10 +75,11 @@ function Home() {
           </div>
 
           {/* Books view */}
-          <div className="">
-            
+          <div className=" flex justify-center items-center gap-10">
+            <Card />
+            <Card />
+            <Card />
           </div>
-
         </div>
       </div>
     </>

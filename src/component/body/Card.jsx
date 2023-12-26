@@ -9,19 +9,19 @@ function Card() {
         className=" w-full h-36 md:h-48 object-cover"
       />
       <div className="text-gray-600 dark:text-gray-300 p-5 w-full">
-        <div className=" flex justify-center items-center">
-          <h3 className="text-xl md:text-xl mb-3 md:mb-4 font-semibold">
-            Livre title
+        <div className=" flex justify-center items-center gap-5">
+          <h3 className="text- md:text-xl mb-3 md:mb-4 text-slate-900 font-bold">
+            Informatique
           </h3>
-          <h3 className="text-xl md:text-xl mb-3 md:mb-4 font-semibold">
-            Auteur livre
+          <h3 className="text-xl md:text-xl mb-3 md:mb-4 font-bold">
+            Robert
           </h3>
         </div>
-        <div className="flex justify-center items-center">
-          <button className=" bg-slate-800 px-3 py-2 text-lg font-medium">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
+          <button className=" text-lg font-medium">
             Acheter
           </button>
-          <button className=" bg-slate-800 px-3 py-2 text-lg font-medium">
+          <button className=" text-lg font-medium">
             <FaEye />
           </button>
         </div>
