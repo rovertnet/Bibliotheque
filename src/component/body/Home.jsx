@@ -3,6 +3,7 @@ import { FaEye } from "react-icons/fa";
 import { FaShoppingCart } from "react-icons/fa";
 import { BiBookmark } from "react-icons/bi";
 import { FaRegHeart } from "react-icons/fa6";
+import Subcribe from "./Subcribe";
 
 function Home() {
   return (
@@ -299,7 +300,7 @@ function Home() {
               <div className="text-gray-600 dark:text-gray-300 p-5 w-full">
                 <div className=" flex justify-center items-center space-x-2">
                   <h3 className="text- md:text-xl mb-3 md:mb-4 text-slate-900 font-bold">
-                    Robert ||
+                    Robert 
                   </h3>
                   <h3 className="text-xl md:text-xl mb-3 md:mb-4 font-bold">
                     Réseau
@@ -356,6 +357,7 @@ function Home() {
           </div>
         </div>
       </div>
+      <Subcribe />
     </>
   );
 }
