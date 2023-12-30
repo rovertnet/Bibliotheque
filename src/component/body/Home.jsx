@@ -300,7 +300,7 @@ function Home() {
               <div className="text-gray-600 dark:text-gray-300 p-5 w-full">
                 <div className=" flex justify-center items-center space-x-2">
                   <h3 className="text- md:text-xl mb-3 md:mb-4 text-slate-900 font-bold">
-                    Robert 
+                    Robert
                   </h3>
                   <h3 className="text-xl md:text-xl mb-3 md:mb-4 font-bold">
                     Réseau
@@ -327,7 +327,7 @@ function Home() {
               <img
                 src="../../public/L11.jpg"
                 alt="couverture"
-                className=" w-full h-36 md:h-48 object-cover"
+                className=" w-full h-36 md:h-48 object-cover grayscale ... hover:grayscale-0 ..."
               />
               <div className="text-gray-600 dark:text-gray-300 p-5 w-full">
                 <div className=" flex justify-center items-center space-x-2">

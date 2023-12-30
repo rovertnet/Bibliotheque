@@ -4,7 +4,7 @@ function Subcribe() {
   return (
     <>
       <div className=" md:px-14 px-4 max-w-screen-2xl mx-auto my-10">
-        <div className=" md:p-9 px-4 py-9 rounded-md bg-gradient-to-r from-black via-slate-400 to-slate-800 ...">
+        <div className=" md:p-9 px-4 py-12 rounded-md bg-gradient-to-r from-black via-slate-400 to-slate-800 ...">
           <div className=" flex flex-col md:flex-row justify-between items-center gap-10">
             {/* image */}
             <div>
