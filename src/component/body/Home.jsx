@@ -327,7 +327,7 @@ function Home() {
               <img
                 src="../../public/L11.jpg"
                 alt="couverture"
-                className=" w-full h-36 md:h-48 object-cover grayscale ... hover:grayscale-0 ..."
+                className=" w-full h-36 md:h-48 object-cover"
               />
               <div className="text-gray-600 dark:text-gray-300 p-5 w-full">
                 <div className=" flex justify-center items-center space-x-2">
