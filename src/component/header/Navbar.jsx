@@ -25,7 +25,7 @@ function Navbar() {
 
   return (
     <>
-      <div className=" md:px-14 lg:px-14 sm:px-16 p-5 max-w-screen-2xl mx-auto">
+      <div className=" md:px-16 lg:px-14 sm:px-16 p-5 max-w-screen-2xl mx-auto">
         <div className="fixed top-0 right-0 left-0 shadow-md bg-white dark:bg-slate-900">
           <div className="text-lg  container mx-auto flex justify-between items-center">
             {/* pour le logo */}
@@ -88,10 +88,10 @@ function Navbar() {
                 className=" text-white focus:outline-none focus:text-[#feff5b]"
               >
                 {showMenu ? (
-                  <HiOutlineXMark className=" h-8 w-8 text-blue-300 dark:text-slate-900 transition-all duration-300" />
+                  <HiOutlineXMark className=" h-8 w-8 text-slate-800 dark:text-slate-100 transition-all duration-300" />
                 ) : (
                   <div className="flex space-x-2">
-                    <LuMenu className=" h-10 w-10 transition-all duration-300 text-blue-300 dark:text-slate-900" />
+                    <LuMenu className=" h-10 w-10 transition-all duration-300 text-slate-800 dark:text-slate-100" />
                   </div>
                 )}
               </button>
@@ -116,7 +116,7 @@ function Navbar() {
               offset={-80}
               key={link}
               to={path}
-              className=" block dark:text-slate-900 text-blue-300 hover:text-white dark:hover:text-white dark:hover:bg-[#1203541c] hover:py-2 cursor-pointer font-semibold text-xl text-center"
+              className=" block dark:text-slate-900 text-slate-800 hover:text-slate-700 dark:hover:text-white dark:hover:bg-[#1203541c] hover:py-2 cursor-pointer font-semibold text-xl text-center"
               onClick={toggleMenu}
             >
               {link}
