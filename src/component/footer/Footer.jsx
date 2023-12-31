@@ -58,12 +58,12 @@ function Footer() {
             </h1>
           </div>
         </div>
-        <hr />
+        <hr className=" md:mt-2 mt-2" />
         <div className="flex justify-between items-center md:py-3 my-2 ">
-          <span className="text-slate-">
-            © Robert {new Date().getFullYear()}. tous droits réservés
+          <span className="text-slate-300 text-base">
+            © rob biblio {new Date().getFullYear()}. tous droits réservés
           </span>
-          <span>par Rovertnet</span>
+          <span className=" text-slate-300 text-base">par Rovertnet</span>
         </div>
       </div>
     </div>
