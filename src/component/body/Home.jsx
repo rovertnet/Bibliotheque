@@ -4,6 +4,8 @@ import { FaShoppingCart } from "react-icons/fa";
 import { BiBookmark } from "react-icons/bi";
 import { FaRegHeart } from "react-icons/fa6";
 import Subcribe from "./Subcribe";
+import { FaStar } from "react-icons/fa";
+import { FaStarHalfAlt } from "react-icons/fa";
 
 function Home() {
   return (
@@ -50,17 +52,24 @@ function Home() {
                     Algo
                   </h3>
                 </div>
+                <div className="flex justify-center items-center space-x-2 text-2xl text-amber-400 md:mb-5 mb-3">
+                  <FaStar />
+                  <FaStar />
+                  <FaStar />
+                  <FaStar />
+                  <FaStar />
+                </div>
                 <div className="flex justify-center items-center gap-3 px-10 md:text-xl md:px-7">
-                  <button className=" text-lg font-medium">
+                  <button className=" text-2xl font-medium">
                     <FaShoppingCart />
                   </button>
-                  <button className=" text-lg font-medium">
+                  <button className=" text-2xl font-medium">
                     <FaEye />
                   </button>
-                  <button className=" text-lg font-medium">
+                  <button className=" text-2xl font-medium">
                     <BiBookmark />
                   </button>
-                  <button className=" text-lg font-medium">
+                  <button className=" text-2xl font-medium">
                     <FaRegHeart />
                   </button>
                 </div>
@@ -82,17 +91,24 @@ function Home() {
                     Anglais
                   </h3>
                 </div>
+                <div className="flex justify-center items-center space-x-2 text-2xl text-amber-400 md:mb-5 mb-3">
+                  <FaStar />
+                  <FaStar />
+                  <FaStar />
+                  <FaStar />
+                  <FaStarHalfAlt />
+                </div>
                 <div className="flex justify-center items-center gap-3 px-10 md:text-xl md:px-7">
-                  <button className=" text-lg font-medium">
+                  <button className=" text-2xl font-medium">
                     <FaShoppingCart />
                   </button>
-                  <button className=" text-lg font-medium">
+                  <button className=" text-2xl font-medium">
                     <FaEye />
                   </button>
-                  <button className=" text-lg font-medium">
+                  <button className=" text-2xl font-medium">
                     <BiBookmark />
                   </button>
-                  <button className=" text-lg font-medium">
+                  <button className=" text-2xl font-medium">
                     <FaRegHeart />
                   </button>
                 </div>
@@ -114,17 +130,24 @@ function Home() {
                     Gest.pro
                   </h3>
                 </div>
+                <div className="flex justify-center items-center space-x-2 text-2xl text-amber-400 md:mb-5 mb-3">
+                  <FaStar />
+                  <FaStar />
+                  <FaStar />
+                  <FaStarHalfAlt />
+                  <FaStarHalfAlt />
+                </div>
                 <div className="flex justify-center items-center gap-3 px-10 md:text-xl md:px-7">
-                  <button className=" text-lg font-medium">
+                  <button className=" text-2xl font-medium">
                     <FaShoppingCart />
                   </button>
-                  <button className=" text-lg font-medium">
+                  <button className=" text-2xl font-medium">
                     <FaEye />
                   </button>
-                  <button className=" text-lg font-medium">
+                  <button className=" text-2xl font-medium">
                     <BiBookmark />
                   </button>
-                  <button className=" text-lg font-medium">
+                  <button className=" text-2xl font-medium">
                     <FaRegHeart />
                   </button>
                 </div>
@@ -146,17 +169,24 @@ function Home() {
                     Economie
                   </h3>
                 </div>
+                <div className="flex justify-center items-center space-x-2 text-2xl text-amber-400 md:mb-5 mb-3">
+                  <FaStar />
+                  <FaStar />
+                  <FaStarHalfAlt />
+                  <FaStarHalfAlt />
+                  <FaStarHalfAlt />
+                </div>
                 <div className="flex justify-center items-center gap-3 px-10 md:text-xl md:px-7">
-                  <button className=" text-lg font-medium">
+                  <button className=" text-2xl font-medium">
                     <FaShoppingCart />
                   </button>
-                  <button className=" text-lg font-medium">
+                  <button className=" text-2xl font-medium">
                     <FaEye />
                   </button>
-                  <button className=" text-lg font-medium">
+                  <button className=" text-2xl font-medium">
                     <BiBookmark />
                   </button>
-                  <button className=" text-lg font-medium">
+                  <button className=" text-2xl font-medium">
                     <FaRegHeart />
                   </button>
                 </div>
@@ -178,17 +208,24 @@ function Home() {
                     Psycho
                   </h3>
                 </div>
+                <div className="flex justify-center items-center space-x-2 text-2xl text-amber-400 md:mb-5 mb-3">
+                  <FaStar />
+                  <FaStar />
+                  <FaStarHalfAlt />
+                  <FaStarHalfAlt />
+                  <FaStarHalfAlt />
+                </div>
                 <div className="flex justify-center items-center gap-3 px-10 md:text-xl md:px-7">
-                  <button className=" text-lg font-medium">
+                  <button className=" text-2xl font-medium">
                     <FaShoppingCart />
                   </button>
-                  <button className=" text-lg font-medium">
+                  <button className=" text-2xl font-medium">
                     <FaEye />
                   </button>
-                  <button className=" text-lg font-medium">
+                  <button className=" text-2xl font-medium">
                     <BiBookmark />
                   </button>
-                  <button className=" text-lg font-medium">
+                  <button className=" text-2xl font-medium">
                     <FaRegHeart />
                   </button>
                 </div>
@@ -210,17 +247,24 @@ function Home() {
                     Dev.web
                   </h3>
                 </div>
+                <div className="flex justify-center items-center space-x-2 text-2xl text-amber-400 md:mb-5 mb-3">
+                  <FaStar />
+                  <FaStar />
+                  <FaStar />
+                  <FaStarHalfAlt />
+                  <FaStarHalfAlt />
+                </div>
                 <div className="flex items-center justify-center gap-3 px-10 md:px-7">
-                  <button className=" text-lg font-medium">
+                  <button className=" text-2xl font-medium">
                     <FaShoppingCart />
                   </button>
-                  <button className=" text-lg font-medium">
+                  <button className=" text-2xl font-medium">
                     <FaEye />
                   </button>
-                  <button className=" text-lg font-medium">
+                  <button className=" text-2xl font-medium">
                     <BiBookmark />
                   </button>
-                  <button className=" text-lg font-medium">
+                  <button className=" text-2xl font-medium">
                     <FaRegHeart />
                   </button>
                 </div>
@@ -242,17 +286,24 @@ function Home() {
                     Dev.web
                   </h3>
                 </div>
+                <div className="flex justify-center items-center space-x-2 text-2xl text-amber-400 md:mb-5 mb-3">
+                  <FaStar />
+                  <FaStar />
+                  <FaStar />
+                  <FaStarHalfAlt />
+                  <FaStarHalfAlt />
+                </div>
                 <div className="flex items-center justify-center gap-3 px-10 md:px-7">
-                  <button className=" text-lg font-medium">
+                  <button className=" text-2xl font-medium">
                     <FaShoppingCart />
                   </button>
-                  <button className=" text-lg font-medium">
+                  <button className=" text-2xl font-medium">
                     <FaEye />
                   </button>
-                  <button className=" text-lg font-medium">
+                  <button className=" text-2xl font-medium">
                     <BiBookmark />
                   </button>
-                  <button className=" text-lg font-medium">
+                  <button className=" text-2xl font-medium">
                     <FaRegHeart />
                   </button>
                 </div>
@@ -274,17 +325,24 @@ function Home() {
                     Réseau
                   </h3>
                 </div>
+                <div className="flex justify-center items-center space-x-2 text-2xl text-amber-400 md:mb-5 mb-3">
+                  <FaStar />
+                  <FaStar />
+                  <FaStar />
+                  <FaStarHalfAlt />
+                  <FaStarHalfAlt />
+                </div>
                 <div className="flex justify-center items-center gap-3 px-10 md:text-xl md:px-7">
-                  <button className=" text-lg font-medium">
+                  <button className=" text-2xl font-medium">
                     <FaShoppingCart />
                   </button>
-                  <button className=" text-lg font-medium">
+                  <button className=" text-2xl font-medium">
                     <FaEye />
                   </button>
-                  <button className=" text-lg font-medium">
+                  <button className=" text-2xl font-medium">
                     <BiBookmark />
                   </button>
-                  <button className=" text-lg font-medium">
+                  <button className=" text-2xl font-medium">
                     <FaRegHeart />
                   </button>
                 </div>
@@ -306,17 +364,24 @@ function Home() {
                     Réseau
                   </h3>
                 </div>
+                <div className="flex justify-center items-center space-x-2 text-2xl text-amber-400 md:mb-5 mb-3">
+                  <FaStar />
+                  <FaStar />
+                  <FaStar />
+                  <FaStarHalfAlt />
+                  <FaStarHalfAlt />
+                </div>
                 <div className="flex justify-center items-center gap-3 px-10 md:text-xl md:px-7">
-                  <button className=" text-lg font-medium">
+                  <button className=" text-2xl font-medium">
                     <FaShoppingCart />
                   </button>
-                  <button className=" text-lg font-medium">
+                  <button className=" text-2xl font-medium">
                     <FaEye />
                   </button>
-                  <button className=" text-lg font-medium">
+                  <button className=" text-2xl font-medium">
                     <BiBookmark />
                   </button>
-                  <button className=" text-lg font-medium">
+                  <button className=" text-2xl font-medium">
                     <FaRegHeart />
                   </button>
                 </div>
@@ -338,17 +403,24 @@ function Home() {
                     Math
                   </h3>
                 </div>
+                <div className="flex justify-center items-center space-x-2 text-2xl text-amber-400 md:mb-5 mb-3">
+                  <FaStar />
+                  <FaStar />
+                  <FaStar />
+                  <FaStarHalfAlt />
+                  <FaStarHalfAlt />
+                </div>
                 <div className="flex justify-center items-center gap-3 px-10 md:text-xl md:px-7">
-                  <button className=" text-lg font-medium">
+                  <button className=" text-2xl font-medium">
                     <FaShoppingCart />
                   </button>
-                  <button className=" text-lg font-medium">
+                  <button className=" text-2xl font-medium">
                     <FaEye />
                   </button>
-                  <button className=" text-lg font-medium">
+                  <button className=" text-2xl font-medium">
                     <BiBookmark />
                   </button>
-                  <button className=" text-lg font-medium">
+                  <button className=" text-2xl font-medium">
                     <FaRegHeart />
                   </button>
                 </div>
