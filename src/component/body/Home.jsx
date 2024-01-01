@@ -16,7 +16,7 @@ function Home() {
       <div className="md:px-14 px-5 bg-gray-100 h-full">
         <div className="flex items-center">
           {/* search */}
-          <div className="bg-white shadow-sm rounded-2xl px-3 py-2 w-full">
+          <div className="bg-white rounded-2xl px-3 py-2 w-full shadow-md">
             <form action="">
               <div className="flex">
                 <input
