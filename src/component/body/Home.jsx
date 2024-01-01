@@ -6,6 +6,7 @@ import { FaRegHeart } from "react-icons/fa6";
 import Subcribe from "./Subcribe";
 import { FaStar } from "react-icons/fa";
 import { FaStarHalfAlt } from "react-icons/fa";
+import { FaRegStar } from "react-icons/fa";
 import Cat from "./Cat";
 
 function Home() {
@@ -137,7 +138,7 @@ function Home() {
                   <FaStar />
                   <FaStar />
                   <FaStarHalfAlt />
-                  <FaStarHalfAlt />
+                  <FaRegStar />
                 </div>
                 <div className="flex justify-center items-center gap-3 px-10 md:text-xl md:px-7">
                   <button className=" text-2xl font-medium">
@@ -175,8 +176,8 @@ function Home() {
                   <FaStar />
                   <FaStar />
                   <FaStarHalfAlt />
-                  <FaStarHalfAlt />
-                  <FaStarHalfAlt />
+                  <FaRegStar />
+                  <FaRegStar />
                 </div>
                 <div className="flex justify-center items-center gap-3 px-10 md:text-xl md:px-7">
                   <button className=" text-2xl font-medium">
@@ -213,9 +214,9 @@ function Home() {
                 <div className="flex justify-center items-center space-x-2 text-2xl text-amber-400 md:mb-5 mb-3">
                   <FaStar />
                   <FaStar />
-                  <FaStarHalfAlt />
-                  <FaStarHalfAlt />
-                  <FaStarHalfAlt />
+                  <FaRegStar />
+                  <FaRegStar />
+                  <FaRegStar />
                 </div>
                 <div className="flex justify-center items-center gap-3 px-10 md:text-xl md:px-7">
                   <button className=" text-2xl font-medium">
@@ -254,7 +255,7 @@ function Home() {
                   <FaStar />
                   <FaStar />
                   <FaStarHalfAlt />
-                  <FaStarHalfAlt />
+                  <FaRegStar />
                 </div>
                 <div className="flex items-center justify-center gap-3 px-10 md:px-7">
                   <button className=" text-2xl font-medium">
@@ -290,10 +291,10 @@ function Home() {
                 </div>
                 <div className="flex justify-center items-center space-x-2 text-2xl text-amber-400 md:mb-5 mb-3">
                   <FaStar />
-                  <FaStar />
-                  <FaStar />
-                  <FaStarHalfAlt />
-                  <FaStarHalfAlt />
+                  <FaRegStar />
+                  <FaRegStar />
+                  <FaRegStar />
+                  <FaRegStar />
                 </div>
                 <div className="flex items-center justify-center gap-3 px-10 md:px-7">
                   <button className=" text-2xl font-medium">
@@ -331,8 +332,8 @@ function Home() {
                   <FaStar />
                   <FaStar />
                   <FaStar />
-                  <FaStarHalfAlt />
-                  <FaStarHalfAlt />
+                  <FaRegStar />
+                  <FaRegStar />
                 </div>
                 <div className="flex justify-center items-center gap-3 px-10 md:text-xl md:px-7">
                   <button className=" text-2xl font-medium">
@@ -371,7 +372,7 @@ function Home() {
                   <FaStar />
                   <FaStar />
                   <FaStarHalfAlt />
-                  <FaStarHalfAlt />
+                  <FaRegStar />
                 </div>
                 <div className="flex justify-center items-center gap-3 px-10 md:text-xl md:px-7">
                   <button className=" text-2xl font-medium">
