@@ -13,7 +13,7 @@ function Home() {
   return (
     <>
       <Cat />
-      <div className="md:px-14 px-5 md:mt-5 mt-5 bg-gray-100 h-full">
+      <div className="md:px-14 px-5 bg-gray-100 h-full">
         <div className="flex items-center">
           {/* search */}
           <div className="bg-white shadow-sm rounded-2xl px-3 py-2 w-full">
