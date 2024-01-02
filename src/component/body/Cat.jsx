@@ -6,7 +6,12 @@ function Cat() {
         <h1 className="text-center md:mb-8 mb-5 text-2xl md:text-3xl font-extrabold text-slate-900">
           Toutes les catégories
         </h1>
-        <motion.div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-6 gap-16">
+        <motion.div
+          initial={{ opacity: 0, y: "-100px" }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 1.5 }}
+          className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-6 gap-16"
+        >
           <div className="">
             <img
               src="../../public/Info1.jpg"

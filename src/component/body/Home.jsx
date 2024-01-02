@@ -8,7 +8,7 @@ import { FaStar } from "react-icons/fa";
 import { FaStarHalfAlt } from "react-icons/fa";
 import { FaRegStar } from "react-icons/fa";
 import Cat from "./Cat";
-import { motion } from "framer-motion";
+
 
 function Home() {
   return (
@@ -430,7 +430,7 @@ function Home() {
                 </div>
               </div>
             </div>
-          </motion.div>
+          </div>
         </div>
       </div>
       <Subcribe />
