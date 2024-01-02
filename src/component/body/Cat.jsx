@@ -1,4 +1,4 @@
-
+import { motion } from "framer-motion";
 function Cat() {
   return (
     <>
@@ -6,7 +6,7 @@ function Cat() {
         <h1 className="text-center md:mb-8 mb-5 text-2xl md:text-3xl font-extrabold text-slate-900">
           Toutes les catégories
         </h1>
-        <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-6 gap-16">
+        <motion.div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-6 gap-16">
           <div className="">
             <img
               src="../../public/Info1.jpg"
@@ -90,7 +90,7 @@ function Cat() {
               <span>23 Livres</span>
             </div>
           </div>
-        </div>
+        </motion.div>
       </div>
     </>
   );
