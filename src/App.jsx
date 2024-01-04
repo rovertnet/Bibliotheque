@@ -148,7 +148,7 @@ function App() {
         </div>
       </div>
 
-      <div className=" bg-gray-100">
+      <div className=" bg-gray-100 dark:bg-slate-900">
         <Banner />
         <Home />
         <Sponsor />

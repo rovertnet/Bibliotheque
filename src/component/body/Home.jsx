@@ -12,9 +12,9 @@ import Cat from "./Cat";
 
 function Home() {
   return (
-    <>
+    <div>
       <Cat />
-      <div className="md:px-14 px-5 bg-gray-100 h-full">
+      <div className="md:px-14 px-5 bg-gray-100 dark:bg-slate-900 h-full">
         <div className="flex items-center">
           {/* search */}
           <div className="bg-white rounded-2xl px-3 py-2 w-full shadow-md">
@@ -434,7 +434,7 @@ function Home() {
         </div>
       </div>
       <Subcribe />
-    </>
+    </div>
   );
 }
 
