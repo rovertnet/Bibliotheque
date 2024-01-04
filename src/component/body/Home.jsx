@@ -36,7 +36,7 @@ function Home() {
 
         {/* Books view */}
         <div className=" container">
-          <h1 className="text-center mt-10 md:mt-11 md:mb-3 mb-2 text-2xl md:text-3xl font-extrabold text-slate-900">
+          <h1 className="text-center dark:text-slate-50 mt-10 md:mt-11 md:mb-3 mb-2 text-2xl md:text-3xl font-extrabold text-slate-900">
             Les plus consultés
           </h1>
           <hr />

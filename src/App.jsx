@@ -7,7 +7,7 @@ import Footer from "./component/footer/Footer";
 import { Link } from "react-scroll";
 import { BsMoonStarsFill } from "react-icons/bs";
 import { LuSunMoon } from "react-icons/lu";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { HiOutlineXMark } from "react-icons/hi2";
 import { LuMenu } from "react-icons/lu";
 
@@ -22,6 +22,22 @@ function App() {
     { link: "Boutique", path: "shop" },
     { link: "Librarie", path: "library" },
   ];
+  
+  useEffect(() => {
+    if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+      setTheme("dark");
+    } else {
+      setTheme("light");
+    }
+  }, []);
+
+  useEffect(() => {
+    if (theme === "dark") {
+      document.documentElement.classList.add("dark");
+    } else {
+      document.documentElement.classList.remove("dark");
+    }
+  });
 
   const handleThemeSwitch = () => {
     setTheme(theme === "dark" ? "light" : "dark");
@@ -60,18 +76,18 @@ function App() {
               {/* Dark mode button */}
               <button
                 type="button"
-                className=" hover:bg-slate-300 dark:hover:bg-green-700 dark:hover:text-slate-300 hover:rounded-full dark:hover:p-2 hover:p-2"
+                className=" hover:bg-slate-300 dark:hover:bg-slate-600 dark:hover:text-slate-300 hover:rounded-full dark:hover:p-2 hover:p-2"
                 onClick={handleThemeSwitch}
               >
                 {theme === "dark" ? (
-                  <BsMoonStarsFill className=" text-Slate-900 text-2xl " />
+                  <BsMoonStarsFill className=" text-Slate-900 text-2xl dark:text-slate-200" />
                 ) : (
                   <LuSunMoon className=" text-slate-800 text-2xl hover:text-slate-400" />
                 )}
               </button>
               <button
                 type="button"
-                className=" bg-slate-950 px-3 py-2 hover:bg-slate-600  rounded-full text-white text-lg dark:hover:text-slate-300 dark:hover:p-2"
+                className=" bg-slate-950 dark:bg-blue-500 dark:hover:bg-blue-400 dark:hover:text-white px-3 py-2 hover:bg-slate-600  rounded-full text-white text-lg dark:hover:p-2"
               >
                 Connexion
               </button>
