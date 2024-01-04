@@ -64,9 +64,9 @@ function Navbar() {
               </button>
               <button
                 type="button"
-                className=" bg-slate-950  p-2 rounded-xl text-white text-lg dark:hover:text-slate-300 hover:rounded-full dark:hover:p-2 hover:p-2"
+                className=" bg-slate-950 px-3 py-2 hover:bg-slate-600  rounded-full text-white text-lg dark:hover:text-slate-300 dark:hover:p-2"
               >
-                Sign Up
+                Connexion
               </button>
             </div>
 
