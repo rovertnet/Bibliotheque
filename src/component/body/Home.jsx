@@ -17,17 +17,17 @@ function Home() {
       <div className="md:px-14 px-5 bg-gray-100 dark:bg-slate-900 h-full">
         <div className="flex items-center">
           {/* search */}
-          <div className="bg-white rounded-2xl px-3 py-2 w-full shadow-md">
+          <div className="bg-white rounded-2xl px-3 py-2 w-full dark:bg-slate-600 shadow-md">
             <form action="">
               <div className="flex">
                 <input
                   type="search"
-                  className="px-3 py-1 w-full outline outline-0 focus:outline-0"
+                  className="px-3 py-1 w-full dark:bg-slate-600 outline outline-0 focus:outline-0"
                   placeholder=" cherchez un livre"
                 />
 
                 <button>
-                  <FaSearch className=" text-slate-500 text-xl" />
+                  <FaSearch className=" text-slate-500 dark:text-slate-200 text-xl" />
                 </button>
               </div>
             </form>
@@ -36,10 +36,10 @@ function Home() {
 
         {/* Books view */}
         <div className=" container">
-          <h1 className="text-center dark:text-slate-50 mt-10 md:mt-11 md:mb-3 mb-2 text-2xl md:text-3xl font-extrabold text-slate-900">
+          <h1 className="text-center dark:text-slate-300 mt-10 md:mt-11 md:mb-3 mb-2 text-2xl md:text-3xl font-extrabold text-slate-900">
             Les plus consultés
           </h1>
-          <hr />
+          <hr className=" dark:text-slate-500" />
           <div className=" grid grid-cols-2 md:grid-cols-2 lg:grid-cols-5 gap-5 md:my-4 my-2 md:py-10 py-9">
             <div className=" bg-white shadow-md dark:bg-slate-800 rounded-lg overflow-hidden hover:-translate-y-4 transition-all duration-300 cursor-pointer">
               <img
@@ -49,7 +49,7 @@ function Home() {
               />
               <div className="text-gray-600 dark:text-gray-300 p-5 w-full">
                 <div className=" flex justify-center items-center gap-3 px-5 md:px-7">
-                  <h3 className="text- md:text-xl mb-3 md:mb-4 text-slate-900 font-bold">
+                  <h3 className=" dark:text-slate-400 md:text-xl mb-3 md:mb-4 text-slate-900 font-bold">
                     Robert
                   </h3>
                   <h3 className="text-xl md:text-xl mb-3 md:mb-4 font-bold">
@@ -88,7 +88,7 @@ function Home() {
               />
               <div className="text-gray-600 dark:text-gray-300 p-5 w-full">
                 <div className=" flex justify-center items-center space-x-2">
-                  <h3 className="text- md:text-xl mb-3 md:mb-4 text-slate-900 font-bold">
+                  <h3 className="dark:text-slate-400 md:text-xl mb-3 md:mb-4 text-slate-900 font-bold">
                     Robert
                   </h3>
                   <h3 className="text-xl md:text-xl mb-3 md:mb-4 font-bold">
@@ -127,7 +127,7 @@ function Home() {
               />
               <div className="text-gray-600 dark:text-gray-300 p-5 w-full">
                 <div className=" flex justify-center items-center space-x-2">
-                  <h3 className="text- md:text-xl mb-3 md:mb-4 text-slate-900 font-bold">
+                  <h3 className="dark:text-slate-400 md:text-xl mb-3 md:mb-4 text-slate-900 font-bold">
                     Robert
                   </h3>
                   <h3 className="text-xl md:text-xl mb-3 md:mb-4 font-bold">
@@ -166,7 +166,7 @@ function Home() {
               />
               <div className="text-gray-600 dark:text-gray-300 p-5 w-full">
                 <div className=" flex justify-center items-center space-x-2">
-                  <h3 className="text- md:text-xl mb-3 md:mb-4 text-slate-900 font-bold">
+                  <h3 className="dark:text-slate-400 md:text-xl mb-3 md:mb-4 text-slate-900 font-bold">
                     Robert
                   </h3>
                   <h3 className="text-xl md:text-xl mb-3 md:mb-4 font-bold">
@@ -205,7 +205,7 @@ function Home() {
               />
               <div className="text-gray-600 dark:text-gray-300 p-5 w-full">
                 <div className=" flex justify-center items-center space-x-2">
-                  <h3 className="text- md:text-xl mb-3 md:mb-4 text-slate-900 font-bold">
+                  <h3 className="dark:text-slate-400 md:text-xl mb-3 md:mb-4 text-slate-900 font-bold">
                     Robert
                   </h3>
                   <h3 className="text-xl md:text-xl mb-3 md:mb-4 font-bold">
@@ -244,7 +244,7 @@ function Home() {
               />
               <div className="text-gray-600 dark:text-gray-300 p-5 w-full">
                 <div className=" flex justify-center items-center space-x-2">
-                  <h3 className="text- md:text-xl mb-3 md:mb-4 text-slate-900 font-bold">
+                  <h3 className="dark:text-slate-400 md:text-xl mb-3 md:mb-4 text-slate-900 font-bold">
                     Robert
                   </h3>
                   <h3 className="text-xl md:text-xl mb-3 md:mb-4 font-bold">
@@ -283,7 +283,7 @@ function Home() {
               />
               <div className="text-gray-600 dark:text-gray-300 p-5 w-full">
                 <div className=" flex justify-center items-center space-x-2">
-                  <h3 className="text- md:text-xl mb-3 md:mb-4 text-slate-900 font-bold">
+                  <h3 className="dark:text-slate-400 md:text-xl mb-3 md:mb-4 text-slate-900 font-bold">
                     Robert
                   </h3>
                   <h3 className="text-xl md:text-xl mb-3 md:mb-4 font-bold">
@@ -322,7 +322,7 @@ function Home() {
               />
               <div className="text-gray-600 dark:text-gray-300 p-5 w-full">
                 <div className=" flex justify-center items-center space-x-2">
-                  <h3 className="text- md:text-xl mb-3 md:mb-4 text-slate-900 font-bold">
+                  <h3 className="dark:text-slate-400 md:text-xl mb-3 md:mb-4 text-slate-900 font-bold">
                     Robert
                   </h3>
                   <h3 className="text-xl md:text-xl mb-3 md:mb-4 font-bold">
@@ -361,7 +361,7 @@ function Home() {
               />
               <div className="text-gray-600 dark:text-gray-300 p-5 w-full">
                 <div className=" flex justify-center items-center space-x-2">
-                  <h3 className="text- md:text-xl mb-3 md:mb-4 text-slate-900 font-bold">
+                  <h3 className="dark:text-slate-400 md:text-xl mb-3 md:mb-4 text-slate-900 font-bold">
                     Robert
                   </h3>
                   <h3 className="text-xl md:text-xl mb-3 md:mb-4 font-bold">
@@ -400,7 +400,7 @@ function Home() {
               />
               <div className="text-gray-600 dark:text-gray-300 p-5 w-full">
                 <div className=" flex justify-center items-center space-x-2">
-                  <h3 className="text- md:text-xl mb-3 md:mb-4 text-slate-900 font-bold">
+                  <h3 className="dark:text-slate-400 md:text-xl mb-3 md:mb-4 text-slate-900 font-bold">
                     Robert
                   </h3>
                   <h3 className="text-xl md:text-xl mb-3 md:mb-4 font-bold">

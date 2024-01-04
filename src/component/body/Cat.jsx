@@ -3,7 +3,7 @@ function Cat() {
   return (
     <>
       <div className="md:px-14 px-12 md:py-12 py-10">
-        <h1 className="text-center md:mb-8 mb-5 text-2xl md:text-3xl font-extrabold text-slate-900">
+        <h1 className="text-center dark:text-slate-300 md:mb-8 mb-5 text-2xl md:text-3xl font-extrabold text-slate-900">
           Toutes les catégories
         </h1>
         <motion.div
@@ -19,10 +19,10 @@ function Cat() {
               className=" rounded-full h-36 object-cover"
             />
             <div className="text-center md:mt-2">
-              <h1 className=" text-lg md:text-xl font-bold text-slate-900">
+              <h1 className=" text-lg md:text-xl font-bold text-slate-900 dark:text-slate-200">
                 Informatique
               </h1>
-              <span>12 Livres</span>
+              <span className="dark:text-slate-400">12 Livres</span>
             </div>
           </div>
 
@@ -33,10 +33,10 @@ function Cat() {
               className=" rounded-full h-36"
             />
             <div className="text-center md:mt-2">
-              <h1 className="text-lg md:text-xl font-bold text-slate-900">
+              <h1 className="text-lg md:text-xl font-bold text-slate-900 dark:text-slate-200">
                 Agronomie
               </h1>
-              <span>15 Livres</span>
+              <span className="dark:text-slate-400">15 Livres</span>
             </div>
           </div>
 
@@ -47,10 +47,10 @@ function Cat() {
               className=" rounded-full h-36"
             />
             <div className="text-center md:mt-2">
-              <h1 className="text-lg md:text-xl font-bold text-slate-900">
+              <h1 className="text-lg md:text-xl font-bold text-slate-900 dark:text-slate-200">
                 Psychologie
               </h1>
-              <span>15 Livres</span>
+              <span className="dark:text-slate-400">15 Livres</span>
             </div>
           </div>
 
@@ -61,10 +61,10 @@ function Cat() {
               className=" rounded-full h-36"
             />
             <div className="text-center md:mt-2">
-              <h1 className="text-lg md:text-xl font-bold text-slate-900">
+              <h1 className="text-lg md:text-xl font-bold text-slate-900 dark:text-slate-200">
                 Agriculture
               </h1>
-              <span>2 Livres</span>
+              <span className="dark:text-slate-400">2 Livres</span>
             </div>
           </div>
 
@@ -75,10 +75,10 @@ function Cat() {
               className=" rounded-full h-36"
             />
             <div className="text-center md:mt-2">
-              <h1 className="text-lg md:text-xl font-bold text-slate-900">
+              <h1 className="text-lg md:text-xl font-bold text-slate-900 dark:text-slate-200">
                 Gestion de projet
               </h1>
-              <span>5 Livres</span>
+              <span className="dark:text-slate-400">5 Livres</span>
             </div>
           </div>
 
@@ -89,10 +89,10 @@ function Cat() {
               className=" rounded-full h-36"
             />
             <div className="text-center md:mt-2">
-              <h1 className="text-lg md:text-xl font-bold text-slate-900">
+              <h1 className="text-lg md:text-xl dark:text-slate-200 font-bold text-slate-900">
                 Anglais
               </h1>
-              <span>23 Livres</span>
+              <span className=" dark:text-slate-400">23 Livres</span>
             </div>
           </div>
         </motion.div>
