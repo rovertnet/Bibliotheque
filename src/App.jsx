@@ -96,11 +96,11 @@ function App() {
             <div className="md:hidden space-x-2">
               <button
                 type="button"
-                className=" hover:bg-slate-300 dark:hover:bg-green-700 dark:hover:text-slate-300 hover:rounded-full dark:hover:p-2 hover:p-2"
+                className=" hover:bg-slate-300 dark:hover:bg-slate-500 dark:hover:text-slate-300 hover:rounded-full dark:hover:p-2 hover:p-2"
                 onClick={handleThemeSwitch}
               >
                 {theme === "dark" ? (
-                  <BsMoonStarsFill className=" text-Slate-900 text-2xl " />
+                  <BsMoonStarsFill className=" text-Slate-900 dark:text-slate-200 text-2xl " />
                 ) : (
                   <LuSunMoon className=" text-slate-800 text-2xl hover:text-slate-400" />
                 )}
@@ -126,7 +126,7 @@ function App() {
       {/* Show menu */}
       <div className="left-11 right-11">
         <div
-          className={` space-y-4 mt-12 w-[400] rounded-br-lg rounded-bl-lg justify-center px-6 py-3 pb-5 dark:bg-slate-600 bg-white ${
+          className={` space-y-4 mt-12 w-[400] shadow-md rounded-br-lg rounded-bl-lg justify-center px-6 py-3 pb-5 dark:bg-slate-600 bg-white ${
             showMenu
               ? "block justify-center fixed top-0 right-0 left-0"
               : "hidden "
@@ -139,7 +139,7 @@ function App() {
               offset={-80}
               key={link}
               to={path}
-              className=" block dark:text-slate-900 text-slate-800 hover:text-slate-700 dark:hover:text-white dark:hover:bg-[#1203541c] hover:py-2 cursor-pointer font-semibold text-xl text-center"
+              className=" block dark:text-slate-900 text-slate-800 hover:text-white hover:bg-slate-300 hover:rounded-lg dark:hover:text-white dark:hover:bg-[#1203541c] dark:hover:rounded-lg hover:py-2 cursor-pointer font-semibold text-xl text-center"
               onClick={toggleMenu}
             >
               {link}

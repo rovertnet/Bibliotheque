@@ -36,7 +36,7 @@ function Home() {
 
         {/* Books view */}
         <div className=" container">
-          <h1 className="text-center dark:text-slate-300 mt-10 md:mt-11 md:mb-3 mb-2 text-2xl md:text-3xl font-extrabold text-slate-900">
+          <h1 className="text-center dark:text-slate-300 mt-10 md:mt-11 md:mb-10 mb-8 text-2xl md:text-4xl font-extrabold text-slate-900">
             Les plus consultés
           </h1>
           <hr className=" dark:text-slate-500" />
@@ -394,7 +394,7 @@ function Home() {
 
             <div className=" bg-white shadow-md dark:bg-slate-800 rounded-lg overflow-hidden hover:-translate-y-4 transition-all duration-300 cursor-pointer">
               <img
-                src="../../public/L11.jpg"
+                src="../../public/E1.jpg"
                 alt="couverture"
                 className=" w-full h-36 md:h-48 object-cover"
               />

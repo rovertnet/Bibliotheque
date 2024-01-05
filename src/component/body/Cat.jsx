@@ -18,7 +18,7 @@ function Cat() {
               alt=""
               className=" rounded-full h-36 object-cover"
             />
-            <div className="text-center md:mt-2">
+            <div className="text-center md:mt-2 mt-3">
               <h1 className=" text-lg md:text-xl font-bold text-slate-900 dark:text-slate-200">
                 Informatique
               </h1>
@@ -30,9 +30,9 @@ function Cat() {
             <img
               src="../../public/A2.jpg"
               alt=""
-              className=" rounded-full h-36"
+              className=" rounded-full h-36 md:h-20 sm:h-20"
             />
-            <div className="text-center md:mt-2">
+            <div className="text-center md:mt-2 mt-3">
               <h1 className="text-lg md:text-xl font-bold text-slate-900 dark:text-slate-200">
                 Agronomie
               </h1>
@@ -44,9 +44,9 @@ function Cat() {
             <img
               src="../../public/Psy1.jpg"
               alt=""
-              className=" rounded-full h-36"
+              className=" rounded-full h-36 md:h-20 sm:h-20"
             />
-            <div className="text-center md:mt-2">
+            <div className="text-center md:mt-2 mt-3">
               <h1 className="text-lg md:text-xl font-bold text-slate-900 dark:text-slate-200">
                 Psychologie
               </h1>
@@ -58,9 +58,9 @@ function Cat() {
             <img
               src="../../public/C1.jpg"
               alt=""
-              className=" rounded-full h-36"
+              className=" rounded-full h-36 md:h-20 sm:h-20"
             />
-            <div className="text-center md:mt-2">
+            <div className="text-center md:mt-2 mt-3">
               <h1 className="text-lg md:text-xl font-bold text-slate-900 dark:text-slate-200">
                 Agriculture
               </h1>
@@ -72,9 +72,9 @@ function Cat() {
             <img
               src="../../public/G1.jpg"
               alt=""
-              className=" rounded-full h-36"
+              className=" rounded-full h-36 md:h-20 sm:h-20"
             />
-            <div className="text-center md:mt-2">
+            <div className="text-center md:mt-2 mt-3">
               <h1 className="text-lg md:text-xl font-bold text-slate-900 dark:text-slate-200">
                 Gestion de projet
               </h1>
@@ -84,11 +84,11 @@ function Cat() {
 
           <div className=" cursor-pointer">
             <img
-              src="../../public/AA.jpg"
+              src="../../public/E1.jpg"
               alt=""
-              className=" rounded-full h-36"
+              className=" rounded-full h-36 md:h-20 sm:h-20"
             />
-            <div className="text-center md:mt-2">
+            <div className="text-center md:mt-2 mt-3">
               <h1 className="text-lg md:text-xl dark:text-slate-200 font-bold text-slate-900">
                 Anglais
               </h1>
