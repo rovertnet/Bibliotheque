@@ -76,7 +76,7 @@ function App() {
               {/* Dark mode button */}
               <button
                 type="button"
-                className=" hover:bg-slate-300 dark:hover:bg-slate-600 dark:hover:text-slate-300 hover:rounded-full dark:hover:p-2 hover:p-2"
+                className=" hover:bg-slate-300 hover:text-slate-900 dark:hover:bg-slate-500 dark:hover:text-slate-300 hover:rounded-full dark:hover:p-2 hover:p-2"
                 onClick={handleThemeSwitch}
               >
                 {theme === "dark" ? (
@@ -126,7 +126,7 @@ function App() {
       {/* Show menu */}
       <div className="left-11 right-11">
         <div
-          className={` space-y-4 mt-16 w-[400] rounded-br-md rounded-bl-md justify-center px-6 py-3 pb-5 mx-6 dark:bg-gradient-to-r dark:from-indigo-500 dark:from-10% dark:via-sky-500 dark:via-30% dark:to-emerald-500 dark:to-90% ... bg-white ${
+          className={` space-y-4 mt-12 w-[400] rounded-br-lg rounded-bl-lg justify-center px-6 py-3 pb-5 dark:bg-slate-600 bg-white ${
             showMenu
               ? "block justify-center fixed top-0 right-0 left-0"
               : "hidden "
