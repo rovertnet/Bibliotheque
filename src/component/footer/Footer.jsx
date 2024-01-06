@@ -9,7 +9,7 @@ function Footer() {
   return (
     <div>
       <div className=" dark:bg-[#101239] bg-slate-800 md:px-14 px-4 max-w-screen-2xl mx-auto">
-        <div className=" py-12 flex flex-col md:flex-row gap-10">
+        <div className=" py-12 flex flex-col md:flex-row sm:flex-row gap-10">
           <div className=" md:w-1/2 space-y-5">
             <a
               href="/"
