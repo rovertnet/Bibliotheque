@@ -29,7 +29,7 @@ function Footer() {
           {/* Navigation */}
           <div className=" md:w-1/2 flex flex-col md:flex-row flex-wrap justify-between gap-8 items-start">
             <div className=" space-y-4 mt-5">
-              <h5 className=" text-white text-xl">Plate-forme</h5>
+              <h5 className=" text-white text-xl">Menu</h5>
               <ul className=" space-y-2">
                 <a
                   href="/"
@@ -41,19 +41,19 @@ function Footer() {
                   href="/service"
                   className=" block text-gray-400 hover:text-gray-300"
                 >
-                  Services
+                  A propos
                 </a>
                 <a
                   href="/realisations"
                   className=" block text-gray-400 hover:text-gray-300"
                 >
-                  Réqlisations
+                  Boutique
                 </a>
                 <a
                   href="/tarif"
                   className=" block text-gray-400 hover:text-gray-300"
                 >
-                  Tarifs
+                  Librerie
                 </a>
                 <a
                   href="/contact"
@@ -65,37 +65,25 @@ function Footer() {
             </div>
 
             <div className=" space-y-4 mt-5">
-              <h5 className=" text-white text-xl">Plate-forme</h5>
+              <h5 className=" text-white text-xl">Liens utils</h5>
               <ul className=" space-y-2">
                 <a
                   href="/"
                   className=" block text-gray-400 hover:text-gray-300"
                 >
-                  Accueil
+                  CGV
                 </a>
                 <a
                   href="/service"
                   className=" block text-gray-400 hover:text-gray-300"
                 >
-                  Services
+                  Politique de confidentialité
                 </a>
                 <a
                   href="/realisations"
                   className=" block text-gray-400 hover:text-gray-300"
                 >
-                  Réqlisations
-                </a>
-                <a
-                  href="/tarif"
-                  className=" block text-gray-400 hover:text-gray-300"
-                >
-                  Tarifs
-                </a>
-                <a
-                  href="/contact"
-                  className=" block text-gray-400 hover:text-gray-300"
-                >
-                  Contact
+                  Conditions de consultation
                 </a>
               </ul>
             </div>

@@ -21,6 +21,7 @@ function App() {
     { link: "A propos", path: "about" },
     { link: "Boutique", path: "shop" },
     { link: "Librerie", path: "library" },
+    { link: "Contact", path: "contact" },
   ];
   
   useEffect(() => {
