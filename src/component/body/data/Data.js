@@ -1,22 +1,32 @@
 export default [
     {
-        titre :'',
+        nom :'',
         imageUrl : '',
-        tech : "",
+        description : "",
     },
     {
-        titre :'',
+        nom :'',
         imageUrl : '',
-        tech : '',
+        description : "",
     },
     {
-        titre :'',
+        nom :'',
         imageUrl : '',
-        tech : '',
+        description : "",
     },
     {
-        titre :'',
+        nom :'',
         imageUrl : '',
-        tech : '',
+        description : "",
+    },
+    {
+        nom :'',
+        imageUrl : '',
+        description : "",
+    },
+    {
+        nom :'',
+        imageUrl : '',
+        description : "",
     },
 ]

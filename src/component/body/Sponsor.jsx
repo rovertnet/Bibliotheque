@@ -1,3 +1,4 @@
+import Slider from "react-slick";
 
 function Sponsor() {
   return (
@@ -6,15 +7,12 @@ function Sponsor() {
         <h1 className="text-center dark:text-slate-300 md:mb-8 mb-5 text-2xl md:text-3xl font-extrabold text-slate-900">
           Clients
         </h1>
-        <div className="">
-          
-          <div className="">
-
-          </div>
+        <div className=" mt-10">
+          <div className=""></div>
         </div>
       </div>
     </>
   );
 }
 
-export default Sponsor
+export default Sponsor;
