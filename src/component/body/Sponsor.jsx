@@ -22,8 +22,8 @@ function Sponsor() {
           <Slider {...settings}>
             {
               Data.map((d) => (
-                <div key={d.nom} className=" bg-slate-200 dark:bg-slate-500 text-slate-900 dark:text-slate-400 space-x-3 rounded-md">
-                  <div className=" h-56 dark:bg-blue-400 flex justify-center items-center rounded-t-xl">
+                <div key={d.nom} className=" bg-slate-200 dark:bg-blue-950 text-slate-900 dark:text-slate-400 space-x-3 rounded-md">
+                  <div className=" h-56 dark:bg-blue-400 bg-slate-900 flex justify-center items-center rounded-t-xl">
                     <img src={d.imageUrl} alt="" className=" h-44 w-44 rounded-full" />
                   </div>
                   <div className=" flex flex-col items-center justify-center gap-4 p-4">
