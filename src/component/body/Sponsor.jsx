@@ -1,4 +1,5 @@
 import Slider from "react-slick";
+import Data from "./data/Data";
 
 function Sponsor() {
   return (
