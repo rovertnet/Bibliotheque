@@ -8,12 +8,12 @@ function Sponsor() {
     dots: true,
     infinite: true,
     speed: 500,
-    slidesToShow: 1,
+    slidesToShow: 3,
     slidesToScroll: 1,
   };
   return (
     <>
-      <div className="md:px-14 px-12 ">
+      <div className="md:px-14 px-12 pb-14">
         <h1 className="text-center dark:text-slate-300 md:mb-8 mb-5 text-2xl md:text-3xl font-extrabold text-slate-900">
           Clients
         </h1>
@@ -22,7 +22,7 @@ function Sponsor() {
           <Slider {...settings}>
             {
               Data.map((d) => (
-                <div key={d.nom} className=" bg-slate-200 dark:bg-slate-900 text-slate-900 dark:text-slate-400 rounded-md">
+                <div key={d.nom} className=" bg-slate-200 dark:bg-slate-500 text-slate-900 dark:text-slate-400 space-x-3 rounded-md">
                   <div className=" h-56 dark:bg-blue-400 flex justify-center items-center rounded-t-xl">
                     <img src={d.imageUrl} alt="" className=" h-44 w-44 rounded-full" />
                   </div>
