@@ -7,9 +7,9 @@ function Sponsor() {
           Clients
         </h1>
         <div className="">
-          <img src="" alt="" />
+          
           <div className="">
-            
+
           </div>
         </div>
       </div>
