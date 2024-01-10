@@ -20,7 +20,7 @@ function App() {
     { link: "Accueil", path: "accueil" },
     { link: "A propos", path: "about" },
     { link: "Boutique", path: "shop" },
-    { link: "Librerie", path: "library" },
+    { link: "Librairie", path: "library" },
     { link: "Contact", path: "contact" },
   ];
   

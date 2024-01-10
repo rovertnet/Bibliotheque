@@ -7,8 +7,8 @@ function Sponsor() {
   const settings = {
     dots: true,
     infinite: true,
-    speed: 500,
-    slidesToShow: 3,
+    speed: 5000,
+    slidesToShow: 2,
     slidesToScroll: 1,
   };
   return (

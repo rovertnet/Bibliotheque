@@ -13,7 +13,7 @@ function Navbar() {
     { link: "Accueil", path: "accueil" },
     { link: "A propos", path: "about" },
     { link: "Boutique", path: "shop" },
-    { link: "Librarie", path: "library" },
+    { link: "Librairie", path: "library" },
   ];
 
   const handleThemeSwitch = () => {
