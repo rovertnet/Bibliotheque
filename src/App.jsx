@@ -127,7 +127,7 @@ function App() {
       {/* Show menu */}
       <div className="left-11 right-11">
         <div
-          className={` space-y-4 mt-12 w-[400] shadow-md rounded-br-lg rounded-bl-lg justify-center px-6 py-3 pb-5 dark:bg-slate-600 bg-white ${
+          className={` space-y-4 mt-12 w-[400] shadow-md rounded-br-lg rounded-bl-lg justify-center px-6 py-3 pb-5 dark:dark:bg-[#151642ef] bg-white ${
             showMenu
               ? "block justify-center fixed top-0 right-0 left-0"
               : "hidden "
@@ -140,7 +140,7 @@ function App() {
               offset={-80}
               key={link}
               to={path}
-              className=" block dark:text-slate-900 text-slate-800 hover:text-white hover:bg-slate-300 hover:rounded-lg dark:hover:text-white dark:hover:bg-[#1203541c] dark:hover:rounded-lg hover:py-2 cursor-pointer font-semibold text-xl text-center"
+              className=" block dark:text-slate-300 text-slate-800 hover:text-white hover:bg-slate-300 hover:rounded-lg dark:hover:text-white dark:hover:bg-[#1203541c] dark:hover:rounded-lg hover:py-2 cursor-pointer font-semibold text-xl text-center"
               onClick={toggleMenu}
             >
               {link}
