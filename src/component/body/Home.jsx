@@ -8,6 +8,7 @@ import { FaStar } from "react-icons/fa";
 import { FaStarHalfAlt } from "react-icons/fa";
 import { FaRegStar } from "react-icons/fa";
 import Cat from "./Cat";
+import Livre from "./Livre";
 
 
 function Home() {
@@ -433,6 +434,7 @@ function Home() {
           </div>
         </div>
       </div>
+      <Livre />
       <Subcribe />
     </div>
   );
