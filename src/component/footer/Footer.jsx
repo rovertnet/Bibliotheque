@@ -129,7 +129,7 @@ function Footer() {
         <hr />
         <div className=" flex flex-col sm:flex-row gap-8 sm:items-center justify-between py-8">
           <p className=" text-base text-slate-300">
-            © Biblio {new Date().getFullYear()}. tous droits réservés
+            © Bibliothèque {new Date().getFullYear()}. tous droits réservés
           </p>
           <div className="flex items-center space-x-5 text-slate-600 dark:text-gray-500">
             <FaInstagramSquare className="cursor-pointer dark:hover:-translate-y-4 hover:-translate-y-4 transition-all duration-300" />
