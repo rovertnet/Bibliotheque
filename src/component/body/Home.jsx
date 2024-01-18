@@ -35,7 +35,7 @@ function Home() {
           </div>
         </div>
 
-        {/* Books view */}
+        {/* Books view ui */}
         <div className=" container">
           <h1 className="text-center dark:text-slate-300 mt-10 md:mt-11 md:mb-10 mb-8 text-2xl md:text-4xl font-extrabold text-slate-900">
             Les plus consultés
@@ -337,6 +337,7 @@ function Home() {
                   <FaRegStar />
                   <FaRegStar />
                 </div>
+
                 <div className="flex justify-center items-center gap-3 px-10 md:text-xl md:px-7">
                   <button className=" text-2xl font-medium">
                     <FaShoppingCart />
