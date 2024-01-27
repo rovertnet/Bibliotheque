@@ -50,7 +50,7 @@ function App() {
   return (
     <>
       <div className=" md:px-16 lg:px-14 sm:px-16 p-5 max-w-screen-2xl mx-auto">
-        <div className="fixed top-0 right-0 left-0 shadow-md bg-white dark:bg-[#060606d8]">
+        <div className="fixed top-0 right-0 left-0 shadow-md bg-white dark:bg-black opacity-85">
           <div className="text-lg  container mx-auto flex justify-between items-center">
             {/* pour le logo */}
             <a href="">
