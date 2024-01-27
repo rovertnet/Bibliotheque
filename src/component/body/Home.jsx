@@ -198,7 +198,7 @@ function Home() {
               </div>
             </div>
 
-            <div className=" bg-white shadow-md dark:bg-slate-800 rounded-lg overflow-hidden hover:-translate-y-4 transition-all duration-300 cursor-pointer">
+            <div className=" bg-white shadow-md dark:bg-slate-800 rounded-lg overflow-hidden cursor-pointer">
               <img
                 src="../../public/L16.jpg"
                 alt="couverture"
