@@ -18,12 +18,12 @@ function Home() {
       <div className="md:px-14 px-5 bg-gray-100 dark:bg-slate-900 h-full">
         <div className="flex items-center">
           {/* search */}
-          <div className="bg-white rounded-2xl px-3 py-2 w-full dark:bg-slate-600 shadow-md">
+          <div className="bg-white rounded-2xl px-3 py-2 w-full dark:hover:border dark:hover:border-slate-200 dark:border-slate-400 dark:bg-slate-900 shadow-md">
             <form action="">
               <div className="flex">
                 <input
                   type="search"
-                  className="px-3 py-1 w-full dark:bg-slate-600 outline outline-0 focus:outline-0 dark:focus:text-slate-200"
+                  className="px-3 py-1 w-full dark:bg-slate-900 outline outline-0 focus:outline-0 dark:focus:text-slate-200"
                   placeholder=" cherchez un livre"
                 />
 
