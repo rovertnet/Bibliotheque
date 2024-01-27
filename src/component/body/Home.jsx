@@ -23,7 +23,7 @@ function Home() {
               <div className="flex">
                 <input
                   type="search"
-                  className="px-3 py-1 w-full dark:bg-slate-600 outline outline-0 focus:outline-0"
+                  className="px-3 py-1 w-full dark:bg-slate-600 outline outline-0 focus:outline-0 dark:focus:text-slate-200"
                   placeholder=" cherchez un livre"
                 />
 
@@ -42,7 +42,7 @@ function Home() {
           </h1>
           <hr className=" dark:text-slate-500" />
           <div className=" grid grid-cols-2 md:grid-cols-2 lg:grid-cols-5 gap-5 md:my-4 my-2 md:py-10 py-9">
-            <div className=" bg-white shadow-md dark:bg-slate-800 rounded-lg overflow-hidden hover:-translate-y-4 transition-all duration-300 cursor-pointer">
+            <div className=" bg-white shadow-md dark:bg-slate-800 rounded-lg overflow-hidden cursor-pointer">
               <img
                 src="../../public/L1.jpg"
                 alt="couverture"
@@ -81,7 +81,7 @@ function Home() {
               </div>
             </div>
 
-            <div className=" bg-white shadow-md dark:bg-slate-800 rounded-lg overflow-hidden hover:-translate-y-4 transition-all duration-300 cursor-pointer">
+            <div className=" bg-white shadow-md dark:bg-slate-800 rounded-lg cursor-pointer">
               <img
                 src="../../public/L2.jpg"
                 alt="couverture"
@@ -120,7 +120,7 @@ function Home() {
               </div>
             </div>
 
-            <div className=" bg-white shadow-md dark:bg-slate-800 rounded-lg overflow-hidden hover:-translate-y-4 transition-all duration-300 cursor-pointer">
+            <div className=" bg-white shadow-md dark:bg-slate-800 rounded-lg overflow-hidden cursor-pointer">
               <img
                 src="../../public/L8.jpg"
                 alt="couverture"
@@ -159,7 +159,7 @@ function Home() {
               </div>
             </div>
 
-            <div className=" bg-white shadow-md dark:bg-slate-800 rounded-lg overflow-hidden hover:-translate-y-4 transition-all duration-300 cursor-pointer">
+            <div className=" bg-white shadow-md dark:bg-slate-800 rounded-lg overflow-hidden cursor-pointer">
               <img
                 src="../../public/couverture.jpg"
                 alt="couverture"
@@ -237,7 +237,7 @@ function Home() {
               </div>
             </div>
 
-            <div className=" bg-white shadow-md dark:bg-slate-800 rounded-lg overflow-hidden hover:-translate-y-4 transition-all duration-300 cursor-pointer">
+            <div className=" bg-white shadow-md dark:bg-slate-800 rounded-lg overflow-hidden cursor-pointer">
               <img
                 src="../../public/L15.jpg"
                 alt="couverture"
@@ -276,7 +276,7 @@ function Home() {
               </div>
             </div>
 
-            <div className=" bg-white shadow-md dark:bg-slate-800 rounded-lg overflow-hidden hover:-translate-y-4 transition-all duration-300 cursor-pointer">
+            <div className=" bg-white shadow-md dark:bg-slate-800 rounded-lg overflow-hidden cursor-pointer">
               <img
                 src="../../public/L9.jpg"
                 alt="couverture"
@@ -315,7 +315,7 @@ function Home() {
               </div>
             </div>
 
-            <div className=" bg-white shadow-md dark:bg-slate-800 rounded-lg overflow-hidden hover:-translate-y-4 transition-all duration-300 cursor-pointer">
+            <div className=" bg-white shadow-md dark:bg-slate-800 rounded-lg overflow-hidden cursor-pointer">
               <img
                 src="../../public/L13.jpg"
                 alt="couverture"
@@ -355,7 +355,7 @@ function Home() {
               </div>
             </div>
 
-            <div className=" bg-white shadow-md dark:bg-slate-800 rounded-lg overflow-hidden hover:-translate-y-4 transition-all duration-300 cursor-pointer">
+            <div className=" bg-white shadow-md dark:bg-slate-800 rounded-lg overflow-hidden cursor-pointer">
               <img
                 src="../../public/20.jpg"
                 alt="couverture"
@@ -394,7 +394,7 @@ function Home() {
               </div>
             </div>
 
-            <div className=" bg-white shadow-md dark:bg-slate-800 rounded-lg overflow-hidden hover:-translate-y-4 transition-all duration-300 cursor-pointer">
+            <div className=" bg-white shadow-md dark:bg-slate-800 rounded-lg overflow-hidden cursor-pointer">
               <img
                 src="../../public/E1.jpg"
                 alt="couverture"

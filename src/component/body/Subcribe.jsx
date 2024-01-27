@@ -4,11 +4,11 @@ function Subcribe() {
   return (
     <>
       <div className=" md:px-14 px-4 max-w-screen-2xl mx-auto my-10 md:pb-10 pb-8">
-        <div className=" md:p-9 px-4 py-12 rounded-md bg-gradient-to-r from-black via-slate-400 to-slate-800 ... dark:bg-gradient-to-r dark:from-blue-500 dark:via-slate-300 dark:to-slate-800">
+        <div className=" md:p-9 px-4 py-12 rounded-md bg-slate-500 dark:bg-slate-800">
           <div className=" flex flex-col md:flex-row justify-between items-center gap-10">
             {/* image */}
             <div>
-              <h1 className=" text-3xl font-extrabold text-white md:text-4xl md:mb-3 mb-2">
+              <h1 className=" text-3xl font-extrabold text-slate-800 dark:text-slate-300 md:text-4xl md:mb-3 mb-2">
                 Sign up for our newsletter
               </h1>
               <p className=" text-slate-200 text-xl font-medium md:text-xl">
